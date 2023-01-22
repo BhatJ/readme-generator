@@ -1,7 +1,6 @@
 // Include packages needed for this application
 const inquirer = require("inquirer");
 const markdownGenerator = require("./utils/generateMarkdown");
-
 const { writeFile } = require('fs').promises;
 
 // An array of questions needed to generate the readme file
@@ -27,6 +26,11 @@ const questions = [
     message: "How do you use the application?",
   },
   {
+    type: "input",
+    name: "tests",
+    message: "How did you test the application?",
+  },
+  {
     type: "list",
     name: "license",
     choices: ["MIT", "Other"],
@@ -48,18 +52,15 @@ const promptUser = () => {
     return inquirer.prompt(questions);
 };
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
+// A function to initialize app
 const init = () => {
+    // Ask user questions via command line
     promptUser()
 
-        // .then((answers) => writeFile('README.md', markdownGenerator.generateMarkdown(answers)))
-        // .then(() => console.log('Successfully wrote to index.html'))
-        // .catch((err) => console.error(err));
-        .then((answers) => console.log(answers))
-        .catch((err) => console.log(err));
+        // Generate readme file with the users answers
+        .then((answers) => writeFile('README.md', markdownGenerator.generateMarkdown(answers)))
+        .then(() => console.log('Successfully wrote to index.html'))
+        .catch((err) => console.error(err));
 }
 
 // Function call to initialize app
