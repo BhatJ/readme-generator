@@ -91,24 +91,30 @@ ${renderLicenseBadge(data.license)}
 7. [Questions](#questions)
 
 ## description
+
 ${data.description}
 
 ## installation
 ${data.installation}
 
 ## usage
+
 ${data.usage}
 
 ## license
+
 ${renderLicenseSection(data.license)}
 
 ## contributions
+
 ${data.github}
 
 ## tests
+
 ${data.tests}
 
 ## questions
+
 ${data.email}
 `;
 }
