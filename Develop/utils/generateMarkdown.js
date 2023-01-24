@@ -108,7 +108,7 @@ ${renderLicenseSection(data.license)}
 
 ## contributions
 
-${data.github}
+https://github.com/${data.github}
 
 ## tests
 
