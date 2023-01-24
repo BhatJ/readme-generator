@@ -38,4 +38,4 @@ THEN I am taken to the corresponding section of the README
     *  Run 'node index.js'
 * Answer all questions by following the prompts
 * The readme generator will use answers provided to generate a professional readme file.
-* Walkthrough - [Readme walkthrough](#)
+* Walkthrough - [Readme walkthrough](https://drive.google.com/file/d/1ZrnPT2zzeBOWqUKt2zUAN9mqHOhbu_PA/view)
