@@ -95,6 +95,7 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## installation
+
 ${data.installation}
 
 ## usage
