@@ -13,11 +13,11 @@
 
 ## description
 
-A command line application to generate a professional readme file using node.js
+A command line application to generate a professional readme file
 
 ## installation
 
-You will need to have node.js installed
+You will need node.js installed
 
 ## usage
 
@@ -37,12 +37,14 @@ At a terminal run 'node index.js' and follow the prompts
 
 ## contributions
 
-BhatJ
+<https://github.com/Bhatj>
 
 ## tests
 
 Manual testing
 
 ## questions
+
+If you have any questions please email me at the following address:
 
 jisha@jisha.com

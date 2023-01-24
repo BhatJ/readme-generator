@@ -108,13 +108,15 @@ ${renderLicenseSection(data.license)}
 
 ## contributions
 
-${data.github}
+<https://github.com/${data.github}>
 
 ## tests
 
 ${data.tests}
 
 ## questions
+
+If you have any questions please email me at the following address:
 
 ${data.email}
 `;
